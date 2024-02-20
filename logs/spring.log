@@ -1,0 +1,35 @@
+[2024-02-19 21:26:38] - RMI TCP Connection(10)-127.0.0.1: (port 52604) connection closed
+[2024-02-19 21:26:38] - RMI TCP Connection(10)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=52764,localport=52604]
+[2024-02-19 21:26:38] - RMI TCP Connection(10)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=52764,localport=52604]
+[2024-02-19 21:26:40] - Restarting application
+[2024-02-19 21:26:40] - Stopping application
+[2024-02-19 21:26:40] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2024-02-19 21:26:40] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1459f956, started on Mon Feb 19 21:26:22 IST 2024
+[2024-02-19 21:26:40] - Stopping beans in phase 2147483647
+[2024-02-19 21:26:40] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2024-02-19 21:26:40] - Stopping beans in phase 2147483646
+[2024-02-19 21:26:40] - Bean 'webServerStartStop' completed its stop procedure
+[2024-02-19 21:26:40] - Unregistering JMX-exposed beans on shutdown
+[2024-02-19 21:26:40] - Unregistering JMX-exposed beans
+[2024-02-19 21:26:40] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-19 21:26:40] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-02-19 21:26:40] - HHH000031: Closing
+[2024-02-19 21:26:40] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@16300a89] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@58bee0cb]
+[2024-02-19 21:26:40] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2024-02-19 21:26:40] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2024-02-19 21:26:40] - HikariPool-2 - Shutdown initiated...
+[2024-02-19 21:26:40] - HikariPool-2 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@39cc47f2: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@757e9bf: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466ae384: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7766a00c: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26451ccb: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c263424: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2392aeb1: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58a834ee: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@12bf7e60: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5bb0895e: (connection evicted)
+[2024-02-19 21:26:40] - HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2024-02-19 21:26:40] - HikariPool-2 - Shutdown completed.
+[2024-02-19 21:26:40] - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@276c5ba0
+[2024-02-19 21:26:40] - Starting application com.akash.sec.app.SprintZeroApplication with URLs [file:/C:/UdemyPro/JavaSpringProjects/SprintZero/target/classes/]
